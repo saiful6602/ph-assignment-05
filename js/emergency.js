@@ -26,7 +26,7 @@ let numberHearts = 0;
         const serviceNumber = service.querySelector(".service-number").textContent;
 
       if (coins < 20) {
-        alert("Not enough coins! Needeed at least 20 coins to make a call.");
+        alert("❌ আপনার পর্যাপ্ত কয়েন নেই কল করতে কমপক্ষে ২০ কয়েন লাগবে।");
         return;
       }
       coins -= 20;
@@ -41,7 +41,7 @@ let numberHearts = 0;
 
     showHistory();
 
-    alert(`Calling for ${serviceName} at ${serviceNumber} and 20 conins will leave`);
+    alert(`কল দেওয়া হচ্ছে ${serviceName} এর জন্য ${serviceNumber} এ এবং এজন্য আপনার ২০ টি কয়েন কাটা হবে।`);
     });
 
 }

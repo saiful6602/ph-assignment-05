@@ -89,6 +89,6 @@ let numberCopies = 0;
 
        navigator.clipboard.writeText(serviceNumber);
 
-      alert(`Hotline Number ${serviceNumber} is copied`);
+      alert(`হটলাইন নাম্বার ${serviceNumber} কপি হয়েছে`);
     });
   }
